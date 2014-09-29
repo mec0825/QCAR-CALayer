@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="yxb_0804_9" size="517.000000 475.000000" />
+    <ImageTarget name="yxb_15" size="500.000000 464.147278" />
+    <ImageTarget name="yxb_0804_1" size="521.000000 485.000000" />
+    <ImageTarget name="yxb_0804_10" size="504.000000 480.000000" />
+    <ImageTarget name="yxb_22" size="500.000000 470.873779" />
+    <ImageTarget name="yxb_14" size="500.000000 459.770111" />
+    <ImageTarget name="yxb_20" size="500.000000 459.692902" />
+    <ImageTarget name="yxb_12" size="500.000000 453.934753" />
+    <ImageTarget name="yxb_21" size="500.000000 470.645782" />
+    <ImageTarget name="yxb_0804_3" size="512.000000 472.000000" />
+    <ImageTarget name="yxb_16" size="500.000000 460.348175" />
+    <ImageTarget name="yxb_6" size="500.000000 470.817108" />
+    <ImageTarget name="yxb_18" size="500.000000 456.896545" />
+    <ImageTarget name="yxb_0804_6" size="522.000000 475.000000" />
+    <ImageTarget name="yxb_1" size="500.000000 457.281555" />
+    <ImageTarget name="yxb_5" size="500.000000 460.937500" />
+    <ImageTarget name="yxb_23" size="500.000000 473.632812" />
+    <ImageTarget name="yxb_0804_11" size="527.000000 477.000000" />
+    <ImageTarget name="yxb_4" size="500.000000 460.424713" />
+    <ImageTarget name="yxb_3" size="500.000000 463.249512" />
+    <ImageTarget name="yxb_0804_4" size="508.000000 470.000000" />
+    <ImageTarget name="yxb_0804_7" size="509.000000 472.000000" />
+    <ImageTarget name="yxb_0804_8" size="519.000000 474.000000" />
+    <ImageTarget name="yxb_19" size="500.000000 455.152679" />
+    <ImageTarget name="yxb_0804_2" size="520.000000 476.000000" />
+    <ImageTarget name="yxb_17" size="500.000000 457.610779" />
+    <ImageTarget name="yxb_0804_5" size="515.000000 477.000000" />
+    <ImageTarget name="yxb_8" size="500.000000 461.389954" />
+    <ImageTarget name="yxb_7" size="500.000000 460.500977" />
+    <ImageTarget name="yxb_13" size="500.000000 462.786255" />
+    <ImageTarget name="yxb_11" size="500.000000 457.446808" />
+  </Tracking>
+</QCARConfig>
