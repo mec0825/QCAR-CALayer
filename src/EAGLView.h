@@ -8,10 +8,10 @@
 
 #import "AR_EAGLView.h"
 
-@class QCARCALayerViewController;
+@class QCARViewController;
 
 @interface EAGLView : AR_EAGLView
 
-@property (nonatomic, assign) QCARCALayerViewController* QCARCAlayerCtl;
+@property (nonatomic, assign) QCARViewController* QCARCtl;
 
 @end

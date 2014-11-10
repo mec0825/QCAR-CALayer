@@ -9,12 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @class EAGLView;
-@class QCARCALayerViewController;
+@class QCARViewController;
 
 @interface ViewController : UIViewController 
 
 @property (nonatomic, strong) EAGLView* eaglView;
-@property (nonatomic, strong) QCARCALayerViewController* QCARCAlayerCtl;
+@property (nonatomic, strong) QCARViewController* QCARCtl;
 
 @property (nonatomic, strong) UIButton* cancelBtn;
 

@@ -11,6 +11,7 @@
 #import "EAGLView.h"
 #import "QCARutils.h"
 #import "QCARCALayerViewController.h"
+#import "QCARWebViewController.h"
 
 @interface ViewController ()
 
@@ -43,12 +44,12 @@
     
     [self.view addSubview:self.eaglView];
     
-    self.QCARCAlayerCtl = [[QCARCALayerViewController alloc] init];
-    self.QCARCAlayerCtl.view.frame = self.eaglView.frame;
+    self.QCARCtl = [[QCARWebViewController alloc] init];
+    self.QCARCtl.view.frame = self.eaglView.frame;
     
-    [self.view addSubview:self.QCARCAlayerCtl.view];
+    [self.view addSubview:self.QCARCtl.view];
     
-    self.eaglView.QCARCAlayerCtl = self.QCARCAlayerCtl;
+    self.eaglView.QCARCtl = self.QCARCtl;
     
 }
 
@@ -63,7 +64,7 @@
 - (void)cameraDidStart {
     
     QCARutils* qUtils = [QCARutils getInstance];
-    [self.QCARCAlayerCtl setProjectionMatrix:qUtils.projectionMatrix.data];
+    [self.QCARCtl setProjectionMatrix:qUtils.projectionMatrix.data];
     
 }
 
