@@ -17,7 +17,7 @@
 #import "QCARutils.h"
 #import "ShaderUtils.h"
 
-#import "QCARCALayerViewController.h"
+#import "QCARViewController.h"
 
 @implementation EAGLView
 
@@ -94,23 +94,25 @@
             
             dispatch_async(dispatch_get_main_queue(), ^{
                 
-                if(self.QCARCAlayerCtl != nil &&
-                   [self.QCARCAlayerCtl getState] == ON_NORMAL) {
+                if(self.QCARCtl != nil &&
+                   [self.QCARCtl getState] == ON_NORMAL) {
                     
-                    [self.QCARCAlayerCtl onCreate];
+                    [self.QCARCtl onCreate];
                     
                 }
                 
-                if(self.QCARCAlayerCtl != nil &&
-                   [self.QCARCAlayerCtl getState] == ON_RENDERING) {
+                if(self.QCARCtl != nil &&
+                   [self.QCARCtl getState] == ON_RENDERING) {
                     QCAR::Matrix44F modelViewMatrix = QCAR::Tool::convertPose2GLMatrix(trackablePose);
                     
                     // The coordinate of OpenGLES is different from CALayer
                     float* rot = new float[16];
                     ShaderUtils::setRotationMatrix(90, 0, 0, 1, rot);
+                    ShaderUtils::scalePoseMatrix(1, 1, -1, rot);
                     ShaderUtils::multiplyMatrix(rot,
                                                 modelViewMatrix.data,
                                                 modelViewMatrix.data);
+                    
                     ShaderUtils::setRotationMatrix(180, 0, 0, 1, rot);
                     ShaderUtils::multiplyMatrix(modelViewMatrix.data,
                                                 rot,
@@ -120,7 +122,7 @@
                                                 rot,
                                                 modelViewMatrix.data);
                     
-                    [self.QCARCAlayerCtl updateModelViewMatrixOfSubviews:modelViewMatrix.data];
+                    [self.QCARCtl updateModelViewMatrixOfSubviews:modelViewMatrix.data];
                 }
             });
             
@@ -130,10 +132,10 @@
     
     dispatch_async(dispatch_get_main_queue(), ^{
         if(didReco == false &&
-           self.QCARCAlayerCtl != nil &&
-           [self.QCARCAlayerCtl getState] == ON_RENDERING) {
+           self.QCARCtl != nil &&
+           [self.QCARCtl getState] == ON_RENDERING) {
             
-            [self.QCARCAlayerCtl onDestroy];
+            [self.QCARCtl onDestroy];
             
         }
     });
