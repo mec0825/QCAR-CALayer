@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E64D23991A19FD0A00D6A876 /* QCARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64D23961A19FD0A00D6A876 /* QCARViewController.m */; };
+		E64D239A1A19FD0A00D6A876 /* QCARWebViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E64D23981A19FD0A00D6A876 /* QCARWebViewController.mm */; };
+		E64D239D1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E64D239B1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Info.plist */; };
 		E665736819D7F18200A27D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E665736719D7F18200A27D30 /* Foundation.framework */; };
 		E665736A19D7F18200A27D30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E665736919D7F18200A27D30 /* CoreGraphics.framework */; };
 		E665736C19D7F18200A27D30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E665736B19D7F18200A27D30 /* UIKit.framework */; };
@@ -51,14 +54,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E64D23951A19FD0A00D6A876 /* QCARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCARViewController.h; sourceTree = "<group>"; };
+		E64D23961A19FD0A00D6A876 /* QCARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCARViewController.m; sourceTree = "<group>"; };
+		E64D23971A19FD0A00D6A876 /* QCARWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCARWebViewController.h; sourceTree = "<group>"; };
+		E64D23981A19FD0A00D6A876 /* QCARWebViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QCARWebViewController.mm; sourceTree = "<group>"; };
+		E64D239B1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QCAR+CALayer+UIWebView-Info.plist"; sourceTree = "<group>"; };
+		E64D239C1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QCAR+CALayer+UIWebView-Prefix.pch"; sourceTree = "<group>"; };
 		E665736419D7F18200A27D30 /* QCAR+CALayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QCAR+CALayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E665736719D7F18200A27D30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E665736919D7F18200A27D30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E665736B19D7F18200A27D30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E665736F19D7F18200A27D30 /* QCAR+CALayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QCAR+CALayer-Info.plist"; sourceTree = "<group>"; };
 		E665737119D7F18200A27D30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E665737319D7F18200A27D30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E665737519D7F18200A27D30 /* QCAR+CALayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QCAR+CALayer-Prefix.pch"; sourceTree = "<group>"; };
 		E665737619D7F18200A27D30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E665737719D7F18200A27D30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E665737A19D7F18200A27D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -188,10 +195,10 @@
 		E665736E19D7F18200A27D30 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E665736F19D7F18200A27D30 /* QCAR+CALayer-Info.plist */,
+				E64D239B1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Info.plist */,
+				E64D239C1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Prefix.pch */,
 				E665737019D7F18200A27D30 /* InfoPlist.strings */,
 				E665737319D7F18200A27D30 /* main.m */,
-				E665737519D7F18200A27D30 /* QCAR+CALayer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,6 +250,10 @@
 		E66573CF19D7F7BD00A27D30 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				E64D23951A19FD0A00D6A876 /* QCARViewController.h */,
+				E64D23961A19FD0A00D6A876 /* QCARViewController.m */,
+				E64D23971A19FD0A00D6A876 /* QCARWebViewController.h */,
+				E64D23981A19FD0A00D6A876 /* QCARWebViewController.mm */,
 				E66573D319D7F81700A27D30 /* EAGLView.h */,
 				E66573D419D7F81700A27D30 /* EAGLView.mm */,
 				E66573E119D802BB00A27D30 /* QCARCALayerViewController.h */,
@@ -344,6 +355,7 @@
 				E66573E019D7FC7600A27D30 /* Main.storyboard in Resources */,
 				E66573AA19D7F1B400A27D30 /* license.txt in Resources */,
 				E665738019D7F18200A27D30 /* Images.xcassets in Resources */,
+				E64D239D1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Info.plist in Resources */,
 				E66573B819D7F3D600A27D30 /* Shader.vsh in Resources */,
 				E665737219D7F18200A27D30 /* InfoPlist.strings in Resources */,
 				E66573DE19D7FC3100A27D30 /* StonesAndChips.dat in Resources */,
@@ -371,11 +383,13 @@
 				E66573A919D7F1B400A27D30 /* AR_EAGLView.mm in Sources */,
 				E66573D519D7F81700A27D30 /* EAGLView.mm in Sources */,
 				E66573AB19D7F1B400A27D30 /* QCARutils.mm in Sources */,
+				E64D239A1A19FD0A00D6A876 /* QCARWebViewController.mm in Sources */,
 				E665737E19D7F18200A27D30 /* ViewController.mm in Sources */,
 				E66573E619D802E700A27D30 /* CALayer+QCAR.m in Sources */,
 				E66573BA19D7F3D600A27D30 /* Texture.mm in Sources */,
 				E665737819D7F18200A27D30 /* AppDelegate.m in Sources */,
 				E66573B919D7F3D600A27D30 /* ShaderUtils.cpp in Sources */,
+				E64D23991A19FD0A00D6A876 /* QCARViewController.m in Sources */,
 				E665737419D7F18200A27D30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,13 +518,13 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QCAR+CALayer/QCAR+CALayer-Prefix.pch";
+				GCC_PREFIX_HEADER = "QCAR+CALayer/QCAR+CALayer+UIWebView-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(PROJECT_DIR)/vuforia-sdk-ios-2-6-8/build/include",
 				);
-				INFOPLIST_FILE = "QCAR+CALayer/QCAR+CALayer-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/QCAR+CALayer/QCAR+CALayer+UIWebView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/vuforia-sdk-ios-2-6-8/build/lib/arm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,13 +541,13 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QCAR+CALayer/QCAR+CALayer-Prefix.pch";
+				GCC_PREFIX_HEADER = "QCAR+CALayer/QCAR+CALayer+UIWebView-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(PROJECT_DIR)/vuforia-sdk-ios-2-6-8/build/include",
 				);
-				INFOPLIST_FILE = "QCAR+CALayer/QCAR+CALayer-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/QCAR+CALayer/QCAR+CALayer+UIWebView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/vuforia-sdk-ios-2-6-8/build/lib/arm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -601,6 +615,7 @@
 				E665739819D7F18200A27D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E665739919D7F18200A27D30 /* Build configuration list for PBXNativeTarget "QCAR+CALayerTests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +624,7 @@
 				E665739B19D7F18200A27D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
