@@ -10,6 +10,7 @@
 		E64D23991A19FD0A00D6A876 /* QCARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64D23961A19FD0A00D6A876 /* QCARViewController.m */; };
 		E64D239A1A19FD0A00D6A876 /* QCARWebViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E64D23981A19FD0A00D6A876 /* QCARWebViewController.mm */; };
 		E64D239D1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E64D239B1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Info.plist */; };
+		E65D43D21A1C815000D6DFAE /* target_chips_A4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E65D43D11A1C815000D6DFAE /* target_chips_A4.pdf */; };
 		E665736819D7F18200A27D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E665736719D7F18200A27D30 /* Foundation.framework */; };
 		E665736A19D7F18200A27D30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E665736919D7F18200A27D30 /* CoreGraphics.framework */; };
 		E665736C19D7F18200A27D30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E665736B19D7F18200A27D30 /* UIKit.framework */; };
@@ -60,6 +61,7 @@
 		E64D23981A19FD0A00D6A876 /* QCARWebViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QCARWebViewController.mm; sourceTree = "<group>"; };
 		E64D239B1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QCAR+CALayer+UIWebView-Info.plist"; sourceTree = "<group>"; };
 		E64D239C1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QCAR+CALayer+UIWebView-Prefix.pch"; sourceTree = "<group>"; };
+		E65D43D11A1C815000D6DFAE /* target_chips_A4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = target_chips_A4.pdf; sourceTree = "<group>"; };
 		E665736419D7F18200A27D30 /* QCAR+CALayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QCAR+CALayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E665736719D7F18200A27D30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E665736919D7F18200A27D30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -267,6 +269,7 @@
 		E66573DB19D7FC3100A27D30 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				E65D43D11A1C815000D6DFAE /* target_chips_A4.pdf */,
 				E66573DC19D7FC3100A27D30 /* StonesAndChips.dat */,
 				E66573DD19D7FC3100A27D30 /* StonesAndChips.xml */,
 			);
@@ -358,6 +361,7 @@
 				E64D239D1A19FD9700D6A876 /* QCAR+CALayer+UIWebView-Info.plist in Resources */,
 				E66573B819D7F3D600A27D30 /* Shader.vsh in Resources */,
 				E665737219D7F18200A27D30 /* InfoPlist.strings in Resources */,
+				E65D43D21A1C815000D6DFAE /* target_chips_A4.pdf in Resources */,
 				E66573DE19D7FC3100A27D30 /* StonesAndChips.dat in Resources */,
 				E66573B719D7F3D600A27D30 /* Shader.fsh in Resources */,
 				E66573DF19D7FC3100A27D30 /* StonesAndChips.xml in Resources */,
