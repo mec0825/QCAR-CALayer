@@ -23,5 +23,4 @@ dependencies: \
   /Users/Mec0825/Documents/Git/QCAR-CALayer/vuforia-sdk-ios-2-6-8/build/include/QCAR/TrackerManager.h \
   /Users/Mec0825/Documents/Git/QCAR-CALayer/vuforia-sdk-ios-2-6-8/build/include/QCAR/ImageTracker.h \
   /Users/Mec0825/Documents/Git/QCAR-CALayer/vuforia-sdk-ios-2-6-8/build/include/QCAR/MarkerTracker.h \
-  /Users/Mec0825/Documents/Git/QCAR-CALayer/vuforia-sdk-ios-2-6-8/build/include/QCAR/VideoBackgroundConfig.h \
-  /Users/Mec0825/Documents/Git/QCAR-CALayer/fishhook/fishhook.h
+  /Users/Mec0825/Documents/Git/QCAR-CALayer/vuforia-sdk-ios-2-6-8/build/include/QCAR/VideoBackgroundConfig.h

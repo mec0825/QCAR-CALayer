@@ -114,11 +114,6 @@ static dispatch_queue_t context_queue;
 
 - (void)updateModelViewMatrixOfSubviews:(float *)mtx {
     
-//    for(int i = 0; i < 16; i++) {
-//        printf("%lf ", mtx[i]);
-//    }
-//    printf("\n");
-    
     [self.webView stringByEvaluatingJavaScriptFromString:
      @"var tagHead = document.documentElement.firstChild;"
       "var tagStyle = document.getElementById(\"updateStyle\");"

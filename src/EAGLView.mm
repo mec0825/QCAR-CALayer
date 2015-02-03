@@ -18,6 +18,8 @@
 #import "ShaderUtils.h"
 
 #import "QCARViewController.h"
+#import "QCARWebViewController.h"
+#import "QCARCALayerViewController.h"
 
 @implementation EAGLView
 
@@ -108,7 +110,8 @@
                     // The coordinate of OpenGLES is different from CALayer
                     float* rot = new float[16];
                     ShaderUtils::setRotationMatrix(90, 0, 0, 1, rot);
-                    ShaderUtils::scalePoseMatrix(1, 1, -1, rot);
+                    if([self.QCARCtl class] == [QCARWebViewController class])
+                        ShaderUtils::scalePoseMatrix(1, 1, -1, rot);
                     ShaderUtils::multiplyMatrix(rot,
                                                 modelViewMatrix.data,
                                                 modelViewMatrix.data);

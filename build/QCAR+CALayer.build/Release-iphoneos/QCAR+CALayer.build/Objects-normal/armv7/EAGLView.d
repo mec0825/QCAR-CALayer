@@ -22,4 +22,6 @@ dependencies: /Users/Mec0825/Documents/Git/QCAR-CALayer/src/EAGLView.mm \
   /Users/Mec0825/Documents/Git/QCAR-CALayer/vuforia-sdk-ios-2-6-8/build/include/QCAR/TrackableResult.h \
   /Users/Mec0825/Documents/Git/QCAR-CALayer/ARCommon/Texture.h \
   /Users/Mec0825/Documents/Git/QCAR-CALayer/ARCommon/ShaderUtils.h \
-  /Users/Mec0825/Documents/Git/QCAR-CALayer/src/QCARViewController.h
+  /Users/Mec0825/Documents/Git/QCAR-CALayer/src/QCARViewController.h \
+  /Users/Mec0825/Documents/Git/QCAR-CALayer/src/QCARWebViewController.h \
+  /Users/Mec0825/Documents/Git/QCAR-CALayer/src/QCARCALayerViewController.h
